@@ -57,7 +57,7 @@ function LargeLink({ link, colors, rounding }) {
     buttonRingFocus,
   } = colors;
 
-  link[0] = link[0] === "website" ? "Become a VS Code SuperHero!" : "website";
+  link[0] = link[0] === "website" ? "Become a VS Code SuperHero!" : link[0];
 
   return (
     <li className="py-4">
